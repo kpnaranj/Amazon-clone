@@ -1,0 +1,68 @@
+.header {
+  height: 60px;
+  /*Flex makes all the functions to be in the same row */
+  display: flex;
+  /*The terms are not center, so we centered them*/
+  align-items: center;
+  background-color: #131921;
+  position: stiky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__searchIcon {
+  background-color: #cd9042;
+  padding: 5px;
+  height: 22px !important;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__Line1 {
+  font-size: 10px;
+}
+
+.header__Line2 {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  color: white;
+  display: flex; /*Flex makes objects go up*/
+  align-items: center; /*We align the items to be centered*/
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
